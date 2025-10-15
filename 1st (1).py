@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 
-GEMINI_API_KEY = "AIzaSyCn0syMz62wbBPIAxdZEXNQKxi4pPIsB9Y"  
+GEMINI_API_KEY = "enter_your_own_API_key"  
 
 # Configure Gemini with the API key
 genai.configure(api_key=GEMINI_API_KEY)
@@ -34,3 +34,4 @@ while True:
         print("\n")
     except Exception as e:
         print(f"Gemini encountered an error: {e}\n")
+
